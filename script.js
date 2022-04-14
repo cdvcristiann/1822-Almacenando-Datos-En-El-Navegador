@@ -1,9 +1,9 @@
 import { addTask } from "./components/addTask.js";
-import { readtasks } from "./components/readtasks.js";
+import { displaytasks } from "./components/readtasks.js";
 
 const btn = document.querySelector('[data-form-btn]');
 
-readtasks();
+displaytasks();
 
 
 //Arrow functions o funciones anonimas
